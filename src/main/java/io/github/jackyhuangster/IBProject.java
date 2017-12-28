@@ -7,8 +7,8 @@ public class IBProject {
         JFrame window = new JFrame("IBProject");
         window.setSize(1280, 720);
         window.setVisible(true);
-        Icon icon = new ImageIcon(IBProject.class.getResource("SVT.gif"));
-        Icon icontwo = new ImageIcon(IBProject.class.getResource("SVT.gif"));
+        Icon icon = new ImageIcon(IBProject.class.getResource("/SVT.gif"));
+        Icon icontwo = new ImageIcon(IBProject.class.getResource("/SVT.gif"));
         JLabel loadingImage = new JLabel(icon);
         loadingImage.setSize(1280, 720);
         //window.add(loadingImage);
